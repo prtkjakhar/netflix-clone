@@ -77,3 +77,8 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+.footer a{
+  text-decoration: underline;
+  color: white;
+}

@@ -18,7 +18,7 @@ function SignUpScreen() {
         console.log(authUser);
       })
       .catch((error) => {
-        alert(error.message);
+        alert('Enter a valid email and atleast 6 letter long password to complete the sign-up process');
       });
   };
 
@@ -34,7 +34,7 @@ function SignUpScreen() {
         console.log(authUser);
       })
       .catch((error) => {
-        alert(error.message);
+        alert('Enter a registered email and password to sign-in');
       });
   };
 

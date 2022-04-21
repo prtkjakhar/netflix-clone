@@ -41,6 +41,7 @@ function LoginScreen() {
             </div>
           </>
         )}
+      <p className="footer">Made by <a href='https://www.linkedin.com/in/prateek-jakhar-a64a04197/'>Prateek Jakhar</a></p>
       </div>
     </div>
   );
